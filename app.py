@@ -77,7 +77,7 @@ def predict():
             Airline_SpiceJet = 0
             Airline_Vistara = 0
             Airline_Other = 0
-            
+
         elif (airline=='Multiple carriers'):
             Airline_AirIndia = 0
             Airline_GoAir = 0
@@ -87,7 +87,7 @@ def predict():
             Airline_SpiceJet = 0
             Airline_Vistara = 0
             Airline_Other = 0
-            
+
         elif (airline=='SpiceJet'):
             Airline_AirIndia = 0
             Airline_GoAir = 0
@@ -97,7 +97,7 @@ def predict():
             Airline_SpiceJet = 1
             Airline_Vistara = 0
             Airline_Other = 0
-            
+
         elif (airline=='Vistara'):
             Airline_AirIndia = 0
             Airline_GoAir = 0
@@ -168,7 +168,7 @@ def predict():
             Destination_Delhi = 0
             Destination_Hyderabad = 0
             Destination_Kolkata = 0
-        
+
         elif (Source == 'Delhi'):
             Destination_Cochin = 0
             Destination_Delhi = 1
