@@ -6,7 +6,16 @@ import pandas as pd
 
 
 app = Flask(__name__)
-model = pickle.load(open("c1_flight_rf.pkl", "rb"))
+
+try:
+    model = pickle.load(open("c1_flight_rf.pkl", "rb"))
+    print("Modal connected successFully")
+except FileNotFoundError:
+    print("The file c1_flight_rf.pkl was not found.")
+except (EOFError, pickle.UnpicklingError):
+    print("An error occurred while loading the model.")
+except Exception as e:
+    print(f"An unexpected error occurred: {str(e)}")
 
 
 @app.route("/")
