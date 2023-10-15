@@ -118,3 +118,15 @@
     cursor: pointer;
     height: 59px;
 }
+
+.prediction {
+    text-align: center;
+    line-height: 2;
+    /* You can adjust this value for vertical alignment */
+    /* background-color: #f0f0f0; */
+    /* Set a background color */
+    /* padding: 10px; */
+    /* Add padding for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add a text shadow */
+}

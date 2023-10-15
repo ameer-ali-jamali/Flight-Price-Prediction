@@ -19,7 +19,9 @@
         <nav class="navbar navbar-dark custom-navbar">
             <a class="navbar-brand" href="/">Pakistani Flight Price Prediction</a>
         </nav>
-
+        <div class="mt-3">
+            <h3 class="prediction" id="prediction-text">{{ prediction_text }}</h3>
+        </div>
         <div class="container mt-5">
             <form action="\predict" method="post">
 
@@ -130,9 +132,6 @@
                 </div>
             </form>
 
-            <div class="mt-3">
-                <h3 id="prediction-text">{{ prediction_text }}</h3>
-            </div>
 
             <div class="mt-5 text-center footer">
                 <p>&copy; 2023 Pakistani Flight Predictor | All Rights Reserved to Ameer Ali</p>
@@ -149,6 +148,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
+
     </body>
 
 </html>
