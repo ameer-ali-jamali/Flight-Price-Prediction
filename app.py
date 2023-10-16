@@ -3,7 +3,11 @@ from flask_cors import cross_origin
 import sklearn
 import pickle
 import pandas as pd
+import warnings
 
+# Filter out DeprecationWarnings or UserWarnings related to scikit-learn
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
 
 app = Flask(__name__)
 
