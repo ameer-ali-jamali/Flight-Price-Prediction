@@ -9,6 +9,8 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 
+# python -W ignore::DeprecationWarning -W ignore::UserWarning your_script.py
+
 app = Flask(__name__)
 
 try:
