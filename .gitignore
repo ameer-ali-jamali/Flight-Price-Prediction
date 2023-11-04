@@ -1,4 +1,185 @@
+# Ignore node_modules directory
+node_modules/
+.pnp
+.pnp.js
+
+# Ignore .env files (environment variables should not be in version control)
 /Env
 /ENV
 /venv
 /myenv
+.env
+.env.local
+.env.development
+.env.test.local
+.env.production.local
+.package-lock.json
+
+# Ignore testing and build artifacts
+/coverage
+/build/release
+
+# Ignore npm, yarn, and pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore logs and errors
+logs/
+error.log
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore user-specific .log files
+*.log
+
+# Ignore .gitignore itself
+.gitignore
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore OS-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore SQLite database files
+*.sqlite
+
+# Ignore system and application files
+*.swp
+*~
+
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+
+# Ignore PHP-specific files
+composer.phar
+composer.lock
+/vendor/
+/.phpintel
+
+# Ignore Java-specific files
+*.class
+
+# Ignore Ruby-specific files
+*.gem
+*.rbc
+/.config
+/config
+/*.bak
+*.swp
+/rdoc
+/.yardoc
+/coverage
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+doc/
+.yardoc/
+/Manifest
+/spec/spec.opts
+/spec/test-unit
+/tmp
+*.log
+
+# Ignore Node.js and npm-specific files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+pids
+logs
+lib-cov
+*.seed
+*.log
+*.pid
+*.lock
+npm-debug.log
+node_modules
+/.warp/
+.warp.log
+config.js
+/.pnp/
+.pnp.js
+.vscode-test/
+build/
+
+# Ignore Rust-specific files
+/target/
+Cargo.lock
+**/target/
+
+# Ignore Go-specific files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore Swift-specific files
+.xcodeproj/
+**/DerivedData/
+**/*.hmap
+**/.build/
+
+# Ignore C/C++-specific files
+*.out
+*.app
+*.iobj
+*.iobj-t
+*.ilk
+*.suo
+*.pdb
+*.exp
+*.user
+*.sln.docstates
+*.log
+*.gz
+*.zip
+*.swp
+
+# Ignore .NET-specific files
+[Tt]est[Rr]esult*/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Android-specific files
+/local.properties
+
+# Ignore Gradle-specific files
+/.gradle/
+/build/
+/captures/
+/gradle-wrapper.jar
+
+# Ignore IDE-specific files
+.idea/
+
+# Ignore text editor-specific files
+*.swp
+
+# Ignore Jupyter Notebook-specific files
+.ipynb_checkpoints/
+
+# Ignore database-specific files
+*.db
+*.sqlite
+
+# Ignore package manager lock files
+yarn.lock
+package-lock.json
